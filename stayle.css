@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #938DF8;
+    padding: 25px;
+}
+
+p1{
+    font-size: large;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navegacao ul {
+    list-style: nome;
+    display: flex;
+    color: #fff;
+}
+
+.navegacao ul {
+margin-right: 20px;
+font-size: 18px; 
+font-weight: bold;
+}
+#sobre {
+    text-align: center;
+    background-color: #EDEAEA;
+    padding: 60px 20px;
+}
+
+.sobre-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sobre-nome {
+    color: #2F80ED;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.sobre-titulo {
+    color: #C5C0C0 ;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.sobre-descriao {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+#formacao {
+    padding: 50px 150px;
+}
+.formacao-titulo {
+    color: #49BFB3;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.fotmacao-lsita {
+    width: 600;
+    margin: 0 auto;
+}
+.formacao-lista h3 {
+    font-size: 20px; 
+    color: #828288;
+    margin-bottom: 10px;
+    width: 180px;
+}
+.formacao-lista a {
+color: #2F80ED ;
+font-size: 20px;
+margin-bottom: 15px;
+}
+.formacao-lista p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#experiencias  {
+    background-color: grey;
+    padding: 50px 150px;
+}
+
+.experiencia-titullo {
+    color:#49BFB3;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.experiencia-lista {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.experiencia-lista h3 {
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 10px;
+    width: 180px ;
+}
+.experiencia-lista a {
+    color: #2f80ed;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.experiencia-lista p {
+    margin-top: 10;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#contato  {
+    padding: 50px 150px;
+}
+
+.contato-titulo {
+    color: #49BFB3;
+    font-size: 30px;
+    margin-bottom: 30;
+}
+
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contato-input input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+contato-input textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc
+}
