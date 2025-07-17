@@ -10,32 +10,35 @@ body {
 #menu {
     display: flex;
     justify-content: space-between;
-    background-color: #938DF8;
+    background-color: #2E4B3C;
     padding: 25px;
 }
 
-p1{
-    font-size: large;
-}
-
 .logo {
-    font-size: 24px;
+    font-size: 20px;
+    background-color: #0000;
 }
 
 .navegacao ul {
-    list-style: nome;
+    list-style: none;
     display: flex;
     color: #fff;
 }
 
-.navegacao ul {
-margin-right: 20px;
-font-size: 18px; 
-font-weight: bold;
+.navegacao ul li {
+    margin-right: 20px;
+    font-size: 18px; 
+    font-weight: bold;
 }
+
+.navegacao ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
 #sobre {
     text-align: center;
-    background-color: #EDEAEA;
+    background-color: #F7EDDA;
     padding: 60px 20px;
 }
 
@@ -45,19 +48,20 @@ font-weight: bold;
     border-radius: 50%;
     object-fit: cover;
 }
+
 .sobre-nome {
-    color: #2F80ED;
+    color: #09332C;
     font-size: 36px;
     margin-top: 20px;
 }
 
 .sobre-titulo {
-    color: #C5C0C0 ;
+    color: #09332C;
     font-size: 24px;
     margin-top: 10px;
 }
 
-.sobre-descriao {
+.sobre-descricao {
     font-size: 16px;
     line-height: 1.6;
     margin-top: 10px;
@@ -65,43 +69,52 @@ font-weight: bold;
 
 #formacao {
     padding: 50px 150px;
+    background-color: #F7DFBA;
 }
+
 .formacao-titulo {
-    color: #49BFB3;
+    color: #09332C;
     font-size: 30px;
     margin-bottom: 30px;
 }
 
-.fotmacao-lsita {
-    width: 600;
+.fotmacao-lista {
+    width: 600px;
     margin: 0 auto;
+    column-count: 2;
+    column-gap: 40px;
 }
+
 .formacao-lista h3 {
     font-size: 20px; 
-    color: #828288;
+    color: #09332C;
     margin-bottom: 10px;
     width: 180px;
 }
+
 .formacao-lista a {
-color: #2F80ED ;
-font-size: 20px;
-margin-bottom: 15px;
+    color: #F0531C;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
+
 .formacao-lista p {
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 20px;
 }
+
 #experiencias  {
-    background-color: grey;
+    background-color: #F7EDDA;
     padding: 50px 150px;
 }
 
 .experiencia-titullo {
-    color:#49BFB3;
+    color: #09332C;
     font-size: 30px;
     margin-bottom: 30px;
 }
+
 .experiencia-lista {
     width: 600px;
     margin: 0 auto;
@@ -109,12 +122,13 @@ margin-bottom: 15px;
 
 .experiencia-lista h3 {
     font-size: 20px;
-    color: #828282;
+    color: #09332C;
     margin-bottom: 10px;
     width: 180px ;
 }
+
 .experiencia-lista a {
-    color: #2f80ed;
+    color: #000;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -127,12 +141,14 @@ margin-bottom: 15px;
 
 #contato  {
     padding: 50px 150px;
+    background-color: #F7DDBA;
 }
 
 .contato-titulo {
-    color: #49BFB3;
+    color: #F7DFBA;
     font-size: 30px;
-    margin-bottom: 30;
+    margin-bottom: 30px;
+    margin-top: -20px;
 }
 
 .contato-formulario {
@@ -142,20 +158,78 @@ margin-bottom: 15px;
     margin: 0 auto;
 }
 
+.contato-grupoinput {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contato-input {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-bottom: 20px;
 }
 
 .contato-input input {
     padding: 10px;
     font-size: 18px;
-    border: 1px solid #ccc;
+    border: 1px solid #F7DFBA;
+    border-radius: 5px;
+    margin-right: 20px;
 }
 
-contato-input textarea {
+.contato-input textarea {
     padding: 10px;
     font-size: 18px;
-    border: 1px solid #ccc
+    border: 1px solid #F7DFBA;
+    border-radius: 5px;
+}
+
+.contato-input label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.btn-enviar {
+    background-color: #2E4B3C;
+    padding: 10px;
+    color: #09332C;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.rodape { 
+    background-color: #2E4B3C;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-contatos a {
+    color: #09332C;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.rodape-contatos img {
+    vertical-align: middle;
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.logo-minas {
+    height: 80px;
 }
